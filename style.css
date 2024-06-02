@@ -1,0 +1,447 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Inter, sans-serif ;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: white;
+}
+
+section{
+    padding: 100px 11% 90px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: all .45s ease;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.nav-home{
+    background-image: url(https://images.pexels.com/photos/16044854/pexels-photo-16044854/free-photo-of-people-surfing-on-sea.jpeg);
+    max-width: 100%;
+    height: 90vh;
+}
+
+.nav-logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.p1{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.p2{
+    font-size: 20px;
+
+}
+
+.nav-bar a{
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    transition: all .45s ease;
+}
+
+.nav-bar a:hover{
+    background: lightblue;
+    letter-spacing: 1px;
+}
+
+.nav-bar li{
+    margin-right: 20px;
+    transition: all .45s ease;
+}
+
+.about .container{
+    padding: 20px;
+}
+
+.about-img img{
+    max-width: 300px;
+    height: auto;
+    box-shadow: 10px;
+    border-radius: 10px;
+}
+
+.about-text{
+    padding: 5px 70px;
+}
+
+.about-text h3{
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+.about-text p{
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    transition: all .45s ease;
+}
+
+.btn-primary:hover{
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: all .45s ease;
+}
+
+.Services{
+    padding: 20px 70px;
+}
+
+.service-cont{
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    min-height: 90vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.service-text{
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.service-text h3{
+    margin-bottom: 20px;
+}
+
+.card img{
+    width:50px;
+    margin-bottom: 10px;
+}
+
+.card h3{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.card p{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card{
+    padding: 20px 30px;
+    background: white;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot-p{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.portfolio-cont{
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    min-height: 90vh;
+}
+
+.portfolio{
+    padding: 20px 70px;
+}
+.port-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.port-text h3{
+    margin-bottom: 10px;
+    margin-left: -60px;
+}
+
+.port-text p{
+    margin-bottom: 10px;
+    margin-left: -60px;
+}
+
+.port-head li{
+    display:flex;
+    flex-direction: row;
+    
+}
+.port-head{
+    margin-top: 50px;
+}
+
+.port-head .black{
+    background-color: black;
+    color: white;
+}
+
+.port-head a{
+    background: white;
+    color: black;
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+
+.port-img{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding: 50px;
+margin-top: -50px;
+}
+
+.akin{
+    padding: 50px 200px;
+}
+
+.port-img img{
+    max-width: 200px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.test-card{
+    background: black;
+    color: white;
+    padding: 20px 30px;
+    max-width: 400px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.card-desc img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.test-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-content h3{
+    margin-bottom: 10px;
+}
+
+.test-content p{
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+ 
+.card-desc p{
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.card-del{
+    display: flex;
+
+}
+
+.steve{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog{
+    padding: 20px 70px;
+}
+
+.blog-cont{
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.blog-cont h3{
+    margin-bottom: 20px;
+}
+.blog-card1 img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.blog-card1{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.blog-card{
+    display: flex;
+
+}
+
+.blog-card1 p{
+    margin-bottom: 10px;
+}
+
+.akt{
+    font-weight: bold;
+}
+
+.akb{
+    margin-left:20px ;
+    font-weight: 300;
+    color: gray;
+}
+
+.akc{
+    font-weight: 300;
+    color: gray;
+}
+.contact{
+    padding: 20px 70px;
+}
+.contact-cont{
+    background:lightgray;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 500px;
+    margin-top: 20px;
+    background:rgb(23, 23, 23);
+    color: white;
+    border: none;
+    height: 35px;
+    padding-left: 10px;
+}
+
+textarea{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.contact-cont h3,p{
+    margin-bottom:40px ;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+button:hover{
+    letter-spacing: 1px;
+    transition: all .45s ease;
+}
+
+.footer{
+    
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-content{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bar{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer-bar a{
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-content p{
+    font-weight: 200;
+}
