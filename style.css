@@ -495,6 +495,29 @@ textarea{
     }
 }
 
+@media(max-width:1300px){
+    .portfolio-cont{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .akin{
+        padding: ;
+    }
+   .port-img{
+    padding: 20px;
+    min-width: 100%;
+    margin-top: 20px;
+
+   }
+
+   .port-img img{
+    max-width: 250px;
+   }
+}
+
+
 @media(max-width:1220px){
     .portfolio-cont{
         padding: 10px 2px;
