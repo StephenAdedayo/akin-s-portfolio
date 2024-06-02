@@ -544,6 +544,7 @@ textarea{
 
 @media(max-width:1024px){
     .navbar{
+        
         position: absolute;
         top: 100%;
         right: -100%;
@@ -588,7 +589,7 @@ textarea{
     }
 
     .navbar.open{
-        right: 0;
+        right:20px ;
     }
 }
 
